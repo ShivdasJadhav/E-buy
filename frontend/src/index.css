@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.no-scrollbar::-webkit-scrollbar{
+    display: none;
+}
+
+.vertical-thin-scroll::-webkit-scrollbar {
+    width: 2px; 
+}
+
+.vertical-thin-scroll::-webkit-scrollbar-thumb {
+    border-radius: 5px;    
+}
+
+.vertical-thin-scroll {
+    scrollbar-width: auto;  
+}
