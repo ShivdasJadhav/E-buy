@@ -155,7 +155,7 @@ const AdminDashboard = () => {
   return (
     <>
       {/* <AdminMenu /> */}
-      <section className="xl:ml-[4rem] md:ml-[0rem]">
+      <section className="xl:ml-[4rem] md:ml-[0rem] h-screen overflow-y-auto">
         <div className="w-[80%] flex justify-around flex-wrap">
           <div className="rounded-lg bg-white flex gap-x-4 items-start justify-between border shadow-md p-5 w-[20rem] mt-5">
             <div className="font-bold rounded-full w-[3rem] bg-teal-500 text-center p-3">
@@ -170,23 +170,23 @@ const AdminDashboard = () => {
           </div>
           <div className="rounded-lg bg-white flex gap-x-4 items-start justify-between border shadow-md p-5 w-[20rem] mt-5">
             <div className="font-bold rounded-full w-[3rem] bg-teal-500 text-center p-3">
-              ₹
+             👤
             </div>
             <div className="flex flex-col flex-1">
               <p className="font-semibold">Customers</p>
               <h1 className="text-xl font-bold">
-                ₹ {isLoading ? <Loader /> : customers?.length}
+                {isLoading ? <Loader /> : customers?.length}
               </h1>
             </div>
           </div>
           <div className="rounded-lg bg-white flex gap-x-4 items-start justify-between border shadow-md p-5 w-[20rem] mt-5">
             <div className="font-bold rounded-full w-[3rem] bg-teal-500 text-center p-3">
-              ₹
+              🤖
             </div>
             <div className="flex flex-col flex-1">
               <p className="font-semibold">All Orders</p>
               <h1 className="text-xl font-bold">
-                ₹ {isLoading ? <Loader /> : orders?.totalOrders}
+                 {isLoading ? <Loader /> : orders?.totalOrders}
               </h1>
             </div>
           </div>
