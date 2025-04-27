@@ -1,4 +1,4 @@
-🛒<h3> E-Buy</h3></br>
+<h3>🛒 E-Buy</h3>
 This project is a full-stack e-commerce application built using the MERN (MongoDB, Express.js, React, Node.js) stack. It provides a seamless shopping experience, featuring:
 
 🔒 User authentication and authorization
