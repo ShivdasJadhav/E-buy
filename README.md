@@ -15,10 +15,10 @@ This project is a full-stack e-commerce application built using the MERN (MongoD
 
 <br/>
 <b>🚀 Tech Stack</b></br>
-Frontend: React, Redux, Tailwind CSS
-Backend: Node.js, Express.js
-Database: MongoDB (Mongoose)
-Authentication: JWT (JSON Web Tokens)
+Frontend: React, Redux, Tailwind CSS</br>
+Backend: Node.js, Express.js</br>
+Database: MongoDB (Mongoose)</br>
+Authentication: JWT (JSON Web Tokens)</br>
 Payments: Stripe API
 <br/>
 <br/>
